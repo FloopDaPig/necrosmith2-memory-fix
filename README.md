@@ -55,7 +55,7 @@ cd src
 dotnet build -c Release
 ```
 
-Requires .NET SDK 6+ and the BepInEx NuGet feed (configured in `NuGet.Config`).
+Requires .NET SDK 6+. The BepInEx reference DLLs are included in `lib/` — no NuGet feed needed.
 
 ---
 
